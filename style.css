@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    font-family: cursive;
+    font-style: oblique;
+    
+}
+body {
+    background-color: rgb(255, 207, 210);
+    text-align: center;
+    }
+
+.container {
+    height: 75vh;
+    background-color: rgb(142, 236, 245);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game {
+    height: 75vmin;
+    width: 100vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+    
+}
+
+.Box {
+    height: 20vmin;
+    width: 25vmin;
+    background-color: rgb(207, 186, 240);
+    border-radius: 2vmin;
+    box-shadow: 5px;
+    color: rgb(232, 10, 10);
+    font-size: larger;
+}
+
+#Reset {
+    padding: 2vmin;
+    font-size: 1.25rem;
+    background-color: rgba(19, 17, 17, 0.824);
+    color: azure;
+    box-shadow: 3px;
+    border-radius: 5px;
+}
+    
+.msgcontainer {
+    height: 100vmin;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+
+#winner {
+    font-size: xx-large;
+    font-family: cursive;
+    font-style: oblique;
+    color:rgb(146, 232, 16)
+}
+
+#newgame {
+    padding: 2vmin;
+    font-size: 1.25rem;
+    background-color: rgba(19, 17, 17, 0.824);
+    color: azure;
+    box-shadow: 3px;
+}
+
+.hidden {
+    display: none;
+}
